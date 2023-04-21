@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "convective-coef"
+version = "0.1.0"
+description = ""
+authors = ["VictsS <vitcorreas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "convective_coef"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+polars = "^0.17.6"
+matplotlib = "^3.7.1"
+pandas = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
