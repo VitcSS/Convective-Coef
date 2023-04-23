@@ -12,6 +12,7 @@ numpy = "^1.24.2"
 polars = "^0.17.6"
 matplotlib = "^3.7.1"
 pandas = "^2.0.0"
+pyarrow = "^11.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
